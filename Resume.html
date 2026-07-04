@@ -6,134 +6,113 @@
 <title>Resume - Machavarapu Venkata Satya Tulasi</title>
 
 <style>
-body{
-    font-family: Arial, sans-serif;
-    background-color:#f0f2f5;
-    margin:0;
-    padding:20px;
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 40px 20px;
+    color: #000000;
 }
 
-.container{
-    width:850px;
-    margin:auto;
-    background:white;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.15);
+.container {
+    width: 800px;
+    margin: auto;
+    background: white;
 }
 
-.header{
-    display:flex;
-    align-items:center;
-    border-bottom:2px solid #ddd;
-    padding-bottom:15px;
+.header {
+    text-align: center;
+    margin-bottom: 25px;
 }
 
-.header img{
-    width:140px;
-    height:170px;
-    object-fit:cover;
-    border-radius:10px;
-    border:2px solid #2c3e50;
-    margin-right:20px;
+.header h1 {
+    margin: 0 0 5px 0;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
 }
 
-.header h1{
-    margin:0;
-    color:#2c3e50;
+.header p {
+    margin: 0;
+    font-size: 14px;
 }
 
-.header p{
-    margin:5px 0;
+.header a {
+    color: #000000;
+    text-decoration: underline;
 }
 
-.section{
-    margin-top:20px;
+.section {
+    margin-top: 22px;
 }
 
-.section h2{
-    color:#34495e;
-    border-bottom:1px solid #ccc;
-    padding-bottom:5px;
+.section-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0 0 3px 0;
 }
 
-p{
-    color:#555;
-    line-height:1.6;
+hr {
+    border: none;
+    border-top: 1px solid #000000;
+    margin: 0 0 8px 0;
 }
 
-ul{
-    color:#555;
+p, li, td {
+    font-size: 14px;
+    line-height: 1.5;
 }
 
-li{
-    margin-bottom:8px;
+p {
+    margin: 0 0 10px 0;
 }
 
-table{
-    width:100%;
-    border-collapse:collapse;
+.skills-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
-table,th,td{
-    border:1px solid #ccc;
+.skills-list li {
+    margin-bottom: 4px;
 }
 
-th{
-    background:#f7f7f7;
+.bullet-list {
+    padding-left: 20px;
+    margin: 0 0 10px 0;
 }
 
-th,td{
-    padding:10px;
-    text-align:left;
+.bullet-list li {
+    margin-bottom: 5px;
 }
 
-.project-title{
-    font-weight:bold;
-    color:#2c3e50;
+.project-header, .edu-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 4px;
 }
 
-.footer{
-    text-align:center;
-    margin-top:25px;
-    color:gray;
+.project-title, .edu-title {
+    font-weight: bold;
 }
 
-.footer img{
-    width:100px;
-    height:120px;
-    object-fit:cover;
-    border-radius:10px;
-    border:2px solid #2c3e50;
-    margin:15px 0;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+.project-date, .edu-date {
+    font-style: normal;
 }
 
-a{
-    color:#0066cc;
-    text-decoration:none;
+.edu-subtitle {
+    font-style: italic;
 }
 
-a:hover{
-    text-decoration:underline;
-}
-
-@media (max-width: 768px) {
+@media print {
+    body {
+        padding: 0;
+    }
     .container {
         width: 100%;
-        padding: 15px;
-    }
-    
-    .header {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .header img {
-        margin-right: 0;
-        margin-bottom: 15px;
     }
 }
 </style>
@@ -146,190 +125,104 @@ a:hover{
 
 <!-- Header -->
 <div class="header">
-
-<img src="https://raw.githubusercontent.com/tulasi2637/Tulasi-Resume-/main/1000052322.jpg" alt="Machavarapu Venkata Satya Tulasi">
-
-<div>
-
-<h1>Machavarapu Venkata Satya Tulasi</h1>
-
-<p><strong>Phone:</strong> 8885374911</p>
-
-<p>
-<strong>Email:</strong>
-<a href="mailto:mvstulasi509@gmail.com">
-mvstulasi509@gmail.com
-</a>
-</p>
-
-<p>
-<strong>LinkedIn:</strong>
-<a href="https://www.linkedin.com/in/machavarapu-venkata-satya-tulasi-5419a9371/" target="_blank">
-linkedin.com/in/machavarapu-venkata-satya-tulasi
-</a>
-</p>
-
-</div>
-
+    <h1>Machavarapu Venkata Satya Tulasi</h1>
+    <p>
+        8885374911 | 
+        <a href="mailto:mvstulasi509@gmail.com">mvstulasi509@gmail.com</a> | 
+        <a href="https://www.linkedin.com/in/machavarapu-venkata-satya-tulasi-5419a9371/" target="_blank">https://www.linkedin.com/in/machavarapu-venkata-satya-tulasi-5419a9371/</a>
+    </p>
 </div>
 
 <!-- Professional Summary -->
-
 <div class="section">
-
-<h2>Professional Summary</h2>
-
-<p>
-Motivated Computer Science and Engineering (Artificial Intelligence & Machine Learning)
-student with strong knowledge of Python, C Programming, SQL, HTML, CSS, and JavaScript.
-Passionate about Artificial Intelligence, Web Development, and Problem Solving.
-Experienced in developing real-world applications through hackathons and academic projects.
-A quick learner with excellent teamwork, leadership, and communication skills.
-</p>
-
+    <h2 class="section-title">Professional Summary</h2>
+    <hr>
+    <p>
+        Computer Science (AIML) student skilled in Python, C Programming, SQL, HTML, CSS, and JavaScript, with a strong interest in software development, AI, and problem-solving.
+    </p>
 </div>
 
 <!-- Skills -->
-
 <div class="section">
-
-<h2>Technical Skills</h2>
-
-<ul>
-
-<li><strong>Programming Languages:</strong> Python, C Programming, SQL</li>
-
-<li><strong>Web Technologies:</strong> HTML, CSS, JavaScript</li>
-
-<li><strong>Tools:</strong> VS Code, Git, GitHub</li>
-
-<li><strong>Core Subjects:</strong> Data Structures, DBMS, OOPs</li>
-
-<li><strong>Soft Skills:</strong> Problem Solving, Leadership, Adaptability, Teamwork, Time Management</li>
-
-</ul>
-
-</div>
-
-<!-- Projects -->
-
-<div class="section">
-
-<h2>Projects</h2>
-
-<p class="project-title">
-CrisisSync AI (SentinelSync) – Integrated Crisis Command Hub
-</p>
-
-<p>
-Developed a real-time emergency response platform using FastAPI and WebSockets.
-Integrated Firebase Realtime Database for live emergency updates and implemented
-Twilio API to send automated alerts and notifications.
-</p>
-
-<p class="project-title">
-Smart Waste Management Platform
-</p>
-
-<p>
-Developed a responsive waste management platform using React.js and Tailwind CSS.
-Created dashboards to monitor waste collection schedules and recycling statistics
-while implementing React Context API for state management.
-</p>
-
-</div>
-
-<!-- Education -->
-
-<div class="section">
-
-<h2>Education</h2>
-
-<table>
-
-<tr>
-<th>Qualification</th>
-<th>Institute</th>
-<th>Score</th>
-</tr>
-
-<tr>
-<td>B.Tech (Computer Science & Engineering - AIML)</td>
-<td>SASI Institute of Technology and Engineering, Tadepalligudem</td>
-<td>8.5 SGPA</td>
-</tr>
-
-<tr>
-<td>Intermediate (MPC)</td>
-<td>Vikas Junior College, Ramachandrapuram</td>
-<td>94.2%</td>
-</tr>
-
-<tr>
-<td>SSC</td>
-<td>Bhashyam English Medium School, Ramachandrapuram</td>
-<td>8.4 CGPA</td>
-</tr>
-
-</table>
-
+    <h2 class="section-title">Skills</h2>
+    <hr>
+    <ul class="skills-list">
+        <li><strong>Languages:</strong> Python, C Programming, SQL</li>
+        <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Tools:</strong> VS Code, Git, GitHub</li>
+        <li><strong>Core CS Concepts:</strong> Data Structures, DBMS</li>
+        <li><strong>Soft Skills:</strong> Problem Solving, Adaptability, Time Management, Leadership</li>
+    </ul>
 </div>
 
 <!-- Certifications -->
-
 <div class="section">
+    <h2 class="section-title">Certifications</h2>
+    <hr>
+    <ul class="bullet-list">
+        <li>Earned 7+ certifications from CodeChef across C, Java, and competitive programming tracks.</li>
+        <li>Successfully completed NPTEL Certification in Internet of Things (IoT).</li>
+        <li>Successfully completed Cambridge Certification Program.</li>
+        <li>Completed Robotics Workshop.</li>
+    </ul>
+</div>
 
-<h2>Certifications</h2>
+<!-- Hackathons / Projects -->
+<div class="section">
+    <h2 class="section-title">Hackathons</h2>
+    <hr>
+    
+    <!-- Project 1 -->
+    <div class="project-header">
+        <span class="project-title">CrisisSync AI (SentinelSync) — Integrated Crisis Command Hub</span>
+        <span class="project-date">Apr 2026</span>
+    </div>
+    <ul class="bullet-list">
+        <li>Engineered a real-time emergency response platform using FastAPI and WebSockets for low-latency incident reporting.</li>
+        <li>Integrated Firebase Realtime Database to deliver live data updates across dispatch dashboards and responder interfaces.</li>
+        <li>Implemented an automated emergency broadcast system via Twilio API to dispatch immediate, location-aware alerts.</li>
+    </ul>
 
-<ul>
-
-<li>NPTEL Certification – Introduction to Internet of Things (IoT)</li>
-
-<li>Cambridge English Certification</li>
-
-<li>CodeChef Certifications in C Programming</li>
-
-<li>CodeChef Certifications in Java Programming</li>
-
-<li>Competitive Programming Certifications from CodeChef</li>
-
-<li>Robotics Workshop Certificate</li>
-
-</ul>
-
+    <!-- Project 2 -->
+    <div class="project-header">
+        <span class="project-title">Smart Waste Management Platform</span>
+        <span class="project-date">Sep 2025</span>
+    </div>
+    <ul class="bullet-list">
+        <li>Developed a responsive municipal waste-tracking web platform using React.js and Tailwind CSS to streamline solid waste management.</li>
+        <li>Built dynamic user dashboards visualizing collection schedules, recycling metrics, and localized processing data.</li>
+        <li>Utilized React Context API for efficient state management across multi-page user reporting pipelines.</li>
+    </ul>
 </div>
 
 <!-- Achievements -->
-
 <div class="section">
-
-<h2>Achievements</h2>
-
-<ul>
-
-<li>Successfully participated in three college-level hackathons.</li>
-
-<li>Achieved 500 difficulty rating on CodeChef.</li>
-
-<li>Completed Practice C and Java learning tracks on CodeChef.</li>
-
-<li>Maintained an 8.5 SGPA in B.Tech.</li>
-
-</ul>
-
+    <h2 class="section-title">Achievements</h2>
+    <hr>
+    <ul class="bullet-list">
+        <li>500 difficulty rating by CodeChef.</li>
+        <li>Completed all practice problems in the Practice C and Java tracks on CodeChef.</li>
+        <li>Successfully participated in and completed 3 college-level hackathons.</li>
+        <li>Maintained a consistent average of 8.3 CGPA.</li>
+    </ul>
 </div>
 
-<!-- Footer -->
-
-<div class="footer">
-
-<img src="https://raw.githubusercontent.com/tulasi2637/Tulasi-Resume-/main/1000052322.jpg" alt="Machavarapu Venkata Satya Tulasi">
-
-<p>© 2026 Machavarapu Venkata Satya Tulasi</p>
-
+<!-- Education -->
+<div class="section">
+    <h2 class="section-title">Education</h2>
+    <hr>
+    <div class="project-header">
+        <span class="edu-title">Sasi Institute of Technology and Engineering</span>
+        <span class="edu-date">Tadepalligudem</span>
+    </div>
+    <div class="project-header">
+        <span class="edu-subtitle">Bachelor of Technology in Computer Science and Engineering (AIML) (GPA: 8.3)</span>
+        <span class="edu-date">Aug 2024 – Present</span>
+    </div>
 </div>
 
 </div>
 
 </body>
-</html
+</html>
+
