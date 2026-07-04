@@ -20,26 +20,42 @@ body {
     background: white;
 }
 
-.header {
-    text-align: center;
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     margin-bottom: 25px;
 }
 
-.header h1 {
-    margin: 0 0 5px 0;
+.header-text {
+    flex-grow: 1;
+}
+
+.header-text h1 {
+    margin: 0 0 8px 0;
     font-size: 28px;
     font-weight: normal;
     letter-spacing: 0.5px;
 }
 
-.header p {
+.header-text p {
     margin: 0;
     font-size: 14px;
+    line-height: 1.6;
 }
 
-.header a {
+.header-text a {
     color: #000000;
     text-decoration: underline;
+}
+
+.header-image {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-left: 20px;
 }
 
 .section {
@@ -124,13 +140,14 @@ p {
 <div class="container">
 
 <!-- Header -->
-<div class="header">
-    <h1>Machavarapu Venkata Satya Tulasi</h1>
-    <p>
-        8885374911 | 
-        <a href="mailto:mvstulasi509@gmail.com">mvstulasi509@gmail.com</a> | 
-        <a href="https://www.linkedin.com/in/machavarapu-venkata-satya-tulasi-5419a9371/" target="_blank">https://www.linkedin.com/in/machavarapu-venkata-satya-tulasi-5419a9371/</a>
-    </p>
+<div class="header-container">
+    <div class="header-text">
+        <h1>Machavarapu Venkata Satya Tulasi</h1>
+        <p><strong>Phone:</strong> 8885374911</p>
+        <p><strong>Email:</strong> <a href="mailto:mvstulasi509@gmail.com">mvstulasi509@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/machavarapu-venkata-satya-tulasi-5419a9371/" target="_blank">linkedin.com/in/machavarapu-venkata-satya-tulasi</a></p>
+    </div>
+    <img class="header-image" src="https://raw.githubusercontent.com/tulasi2637/Tulasi-Resume-/main/1000052322.jpg" alt="Machavarapu Venkata Satya Tulasi">
 </div>
 
 <!-- Professional Summary -->
@@ -167,7 +184,7 @@ p {
     </ul>
 </div>
 
-<!-- Hackathons / Projects -->
+<!-- Hackathons -->
 <div class="section">
     <h2 class="section-title">Hackathons</h2>
     <hr>
@@ -225,4 +242,5 @@ p {
 
 </body>
 </html>
+
 
